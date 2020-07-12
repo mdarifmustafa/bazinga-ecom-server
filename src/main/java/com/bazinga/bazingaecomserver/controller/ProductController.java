@@ -15,7 +15,7 @@ public class ProductController {
 		System.out.println("reaching to api home...");
 		return "Welcome to Bazinga E-Commercial API";
 	}
-	
+
 	@GetMapping("*")
 	public String badRequest() {
 		System.out.println("requested bad request...");
